@@ -1,7 +1,10 @@
 # Gemini_Vs_Chatgpt4_SQL_CASE_STUDY
-Analyzing benchmark performance and comparative insights between Gemini Ultra and ChatGPT-4 models using SQL queries!
 
+## Analyzing benchmark performance and comparative insights between Gemini Ultra and ChatGPT-4 models using SQL queries!
 
+### Tables 📊
+
+```sql
 -- Table to store information about different models
 CREATE TABLE Models (
     ModelID INT PRIMARY KEY,
@@ -61,38 +64,3 @@ INSERT INTO Benchmarks (BenchmarkID, ModelID, CapabilityID, BenchmarkName, Score
 (10, 2, 3, 'GSM8K', 92.00, NULL, 'Basic arithmetic manipulations, incl. Grade School math problems'),
 (11, 1, 3, 'MATH', 53.20, 52.90, 'Challenging math problems, incl. algebra, geometry, pre-calculus, and others'),
 (12, 2, 3, 'MATH', 52.90, NULL, 'Challenging math problems, incl. algebra, geometry, pre-calculus, and others'),
-
--- Code Generation Capabilities
-(13, 1, 4, 'HumanEval', 74.40, 67.00, 'Python code generation'),
-(14, 2, 4, 'HumanEval', 67.00, NULL, 'Python code generation'),
-(15, 1, 4, 'Natura12Code', 74.90, 73.90, 'Python code generation. New held out dataset HumanEval-like, not leaked on the web'),
-(16, 2, 4, 'Natura12Code', 73.90, NULL, 'Python code generation'),
-
--- Image Capabilities
-(17, 1, 5, 'MIMMU', 59.40, 56.80, 'Multi-discipline college-level reasoning problems'),
-(18, 2, 5, 'VQAv2', 77.80, 77.20, 'Natural image understanding'),
-(19, 1, 5, 'TextVQA', 82.30, 78.00, 'OCR on natural images'),
-(20, 2, 5, 'DocVQA', 90.90, 88.40, 'Document understanding'),
-(21, 1, 5, 'Infographic VQA', 80.30, 75.10, 'Infographic understanding'),
-(22, 2, 5, 'MathVista', 53.00, 49.90, 'Mathematical reasoning in visual contexts'),
-
--- Video Capabilities
-(23, 1, 6, 'VATEX', 62.7, 56, 'English video captioning (CIDEr)'),
-(24, 2, 6, 'Perception Test MCQA', 54.70, 46.30, 'Video question answering'),
-
--- Audio Capabilities
-(25, 1, 7, 'CoV0ST 2', 40.1, 29.1, 'Automatic speech translation (BLEU score)'),
-(26, 2, 7, 'FLEURS', 7.60, 17.60, 'Automatic speech recognition (word error rate)')
-
-
-QUESTIONS
-1)What are the average scores for each capability on both the Gemini Ultra and GPT-4 models?
-2)Which benchmarks does Gemini Ultra outperform GPT-4 in terms of scores?
-3)What are the highest scores achieved by Gemini Ultra and GPT-4 for each benchmark in the Image capability?
-4)Calculate the percentage improvement of Gemini Ultra over GPT-4 for each benchmark?
-5)Retrieve the benchmarks where both models scored above the average for their respective models?
-6)Which benchmarks show that Gemini Ultra is expected to outperform GPT-4 based on the next score?
-7)Classify benchmarks into performance categories based on score ranges?
-8) Retrieve the rankings for each capability based on Gemini Ultra scores?
-9)Convert the Capability and Benchmark names to uppercase?
-10) Can you provide the benchmarks along with their descriptions in a concatenated format?
