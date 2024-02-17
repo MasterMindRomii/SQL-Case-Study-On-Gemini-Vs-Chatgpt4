@@ -63,4 +63,20 @@ INSERT INTO Benchmarks (BenchmarkID, ModelID, CapabilityID, BenchmarkName, Score
 (9, 1, 3, 'GSM8K', 94.40, 92.00, 'Basic arithmetic manipulations, incl. Grade School math problems'),
 (10, 2, 3, 'GSM8K', 92.00, NULL, 'Basic arithmetic manipulations, incl. Grade School math problems'),
 (11, 1, 3, 'MATH', 53.20, 52.90, 'Challenging math problems, incl. algebra, geometry, pre-calculus, and others'),
-(12, 2, 3, 'MATH', 52.90, NULL, 'Challenging math problems, incl. algebra, geometry, pre-calculus, and others'),
+(12, 2, 3, 'MATH', 52.90, NULL, 'Challenging math problems, incl. algebra, geometry, pre-calculus, and others')
+
+
+### Questions 🤔
+
+1. What are the average scores for each capability on both the Gemini Ultra and GPT-4 models?
+2. Which benchmarks does Gemini Ultra outperform GPT-4 in terms of scores?
+3. What are the highest scores achieved by Gemini Ultra and GPT-4 for each benchmark in the Image capability?
+4. Calculate the percentage improvement of Gemini Ultra over GPT-4 for each benchmark?
+5. Retrieve the benchmarks where both models scored above the average for their respective models?
+6. Which benchmarks show that Gemini Ultra is expected to outperform GPT-4 based on the next score?
+7. Classify benchmarks into performance categories based on score ranges?
+8. Retrieve the rankings for each capability based on Gemini Ultra scores?
+9. Convert the Capability and Benchmark names to uppercase?
+10. Can you provide the benchmarks along with their descriptions in a concatenated format?
+
+Feel free to use the SQL queries provided to derive the answers. Let's explore the performance and capabilities of Gemini Ultra and GPT-4 models!
