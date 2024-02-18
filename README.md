@@ -1,4 +1,4 @@
-# Gemini_Vs_Chatgpt4_SQL_CASE_STUDY
+# SQL-Case-Study-On-Gemini-Vs-Chatgpt4
 
 ## Analyzing benchmark performance and comparative insights between Gemini Ultra and ChatGPT-4 models using SQL queries!
 
